@@ -41,7 +41,7 @@ twitch_init( clientID );
 The first step is really only one line of code, usually in the create event of a controller object.
 No extensions to setup, no libraries or DLL's. Just one script.
 
-The only value you need to pass into the script to get up and running is a Twitch Client ID. The other scripts will automatically put it into the headers of each request for you! [You can create a Client ID here](https://www.twitch.tv/kraken/oauth2/clients/new). Set the redirect to localhost as recommended, then copy the ID from the URL in your browser.
+The only value you need to pass into the script to get up and running is a Twitch Client ID. The other scripts will automatically put it into the headers of each request for you! [You can create a Client ID here](https://dev.twitch.tv/console/apps/create). Set the redirect to localhost as recommended, then copy the ID from the URL in your browser.
 
 *credit goes to the developer [chalenged](https://github.com/chalenged) for creating a pull request to update this API to work with Twitch's new request system*
 
